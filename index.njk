@@ -4,6 +4,30 @@
 
 {% block content %}
 <p>
-  <i class="fas fa-arrow-right"></i> Insert content here. <i class="fas fa-arrow-left"></i>
+  <i class="fas fa-arrow-right"></i>
+
+  <form class="super_vilain" action="index.html" method="post">
+
+    <div class="super_vilain">
+      <label for="super_vilain_name">Enter your super vilain name's: </label>
+      <input type="text" name="super_vilain_name" value="Vilain Name's" required>
+    </div>
+
+    <div class="super_vilain">
+      <label for="super_vilain_power">Enter your super vilain power's: </label>
+      <input type="text" name="super_vilain_power" value="Vilain Power's" required>
+    </div>
+
+    <div class="super_vilain">
+      <label for="motivation_plan">Motivation and plan to conquer the world :</label>
+      <textarea id="story" name="motivation_plan" rows="5" cols="45">
+        Explain your plan and your motivation to conquer the world!
+      </textarea>
+    </div>
+    <button class="btn" type="button" name="reset">Reset</button>
+    <button class="btn" type="button" name="display">Display</button>
+  </form>
+
+  <i class="fas fa-arrow-left"></i>
 </p>
 {% endblock %}
