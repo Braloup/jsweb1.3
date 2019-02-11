@@ -8,3 +8,33 @@
   If you need some CSS for any reason you can put it here.
 */
 
+label{
+  display: block;
+}
+
+.btn {
+  background: #d93f34;
+  background-image: -webkit-linear-gradient(top, #d93f34, #db7923);
+  background-image: -moz-linear-gradient(top, #d93f34, #db7923);
+  background-image: -ms-linear-gradient(top, #d93f34, #db7923);
+  background-image: -o-linear-gradient(top, #d93f34, #db7923);
+  background-image: linear-gradient(to bottom, #d93f34, #db7923);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #fc3c3c;
+    background-image: -webkit-linear-gradient(top, #fc3c3c, #eba417);
+    background-image: -moz-linear-gradient(top, #fc3c3c, #eba417);
+    background-image: -ms-linear-gradient(top, #fc3c3c, #eba417);
+    background-image: -o-linear-gradient(top, #fc3c3c, #eba417);
+    background-image: linear-gradient(to bottom, #fc3c3c, #eba417);
+    text-decoration: none;
+}

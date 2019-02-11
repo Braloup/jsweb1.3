@@ -8,5 +8,8 @@ import 'bootstrap';
 /*
   Put the JavaScript code you want below.
 */
-
-console.log("Hey look in your browser console. It works!");
+function display_form() {
+  let vilain_name = document.getElementById('vilain_name').value;
+  let vilain_power = document.getElementById('vilain_power').value;
+  
+}
